@@ -34,6 +34,6 @@
     - absolute list vs relative link
     - a tag, attributes: href, target, title
 13. Image
-13. Table
-14. Form 
+13. Basic Table
+14. Basic Form 
 15. Deploy
