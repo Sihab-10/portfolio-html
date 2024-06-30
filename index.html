@@ -1,100 +1,118 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-  </head>
 
-  <body>
-    <!-- section: navbar -->
-    <nav>
-      <ul>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#Projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-    <!-- Section: Intro -->
-    <header id="intro">
-      <h1>Sihab Sarar Chistee</h1>
-      <p><em>Web Developer and Student of Computer Science</em></p>
-      <a href="https://www.youtube.com/@digithunder24"><img src="./images/sihab_photo.jpg" alt="Sihab_Sarar" width="300" height="300"></a>
-    </header>
-    <hr />
-    <!-- normal text <br/>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+</head>
+
+<body>
+  <!-- section: navbar -->
+  <nav>
+    <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#Projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <!-- Section: Intro -->
+  <header id="intro">
+    <h1>Sihab Sarar Chistee</h1>
+    <p><em>Web Developer and Student of Computer Science</em></p>
+    <a href="https://www.youtube.com/@digithunder24"><img src="./images/sihab_photo.jpg" alt="Sihab_Sarar" width="300"
+        height="300"></a>
+  </header>
+  <hr />
+  <!-- normal text <br/>
     <u>Underlined text</u> <br/>
     <strong>Bold text</strong> <br/>
     <em>Italic text</em> <br/>
     <mark>Mark text</mark><br/>
     <del>Deleted text</del><br/>
     (a+b)<sup>2</sup> H<sub>2</sub>O  -->
-    <!-- Section: about me -->
-    <section id="about">
-      <h2></h2>
-      <p><strong>Experience:</strong> 5 years experience in web development</p>
-      <p>
-        <strong>Education:</strong> Bachelor in computer science and engineering
-        from DIU
-      </p>
-    </section>
-    <br>
-    <!-- Section: Skills -->
-     <h2>Skills</h2>
-    <section id="skills">
-      <table border="1" cellpadding="10" cellspacing="0">
-        <thead>
-          <tr>
-            <th>Technology</th>
-            <th>Proficiency</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>HTML</td>
-            <td>Intermediate</td>
-          </tr>
-          <tr>
-            <td>CSS</td>
-            <td>Intermediate</td>
-          </tr>
-          <tr>
-            <td>JavaScript</td>
-            <td>Intermediate</td>
-          </tr>
-        </tbody>
-        <tfoot></tfoot>
-      </table>
-      <!-- <dl>
+  <!-- Section: about me -->
+  <section id="about">
+    <h2></h2>
+    <p><strong>Experience:</strong> 5 years experience in web development</p>
+    <p>
+      <strong>Education:</strong> Bachelor in computer science and engineering
+      from DIU
+    </p>
+  </section>
+  <br>
+  <!-- Section: Skills -->
+  <h2>Skills</h2>
+  <section id="skills">
+    <table border="1" cellpadding="10" cellspacing="0">
+      <thead>
+        <tr>
+          <th>Technology</th>
+          <th>Proficiency</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>HTML</td>
+          <td>Intermediate</td>
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td>Intermediate</td>
+        </tr>
+        <tr>
+          <td>JavaScript</td>
+          <td>Intermediate</td>
+        </tr>
+      </tbody>
+      <tfoot></tfoot>
+    </table>
+    <!-- <dl>
         <dt>HTML</dt>
         <dd>
           HTML is a markup language. HTML stands for HYPER TEXT MARKUP LANGUAGE
         </dd>
       </dl> -->
-    </section>
-    <!-- Section: Projects -->
-    <section id="Projects">
-      <h2>Projects</h2>
-      <ol>
-        <li>
-          <a href="https://github.com/Sihab-10/portfolio-html" target="_blank"
-            >My Portfolio Website</a
-          >
-        </li>
-        <li>Blog Website</li>
-        <li>E-commerce Website</li>
-      </ol>
-    </section>
-    <!-- Section: Contacts -->
-    <section id="contact">
-      <h2>Contact Me</h2>
-    </section>
-    <!-- section: footer -->
-    <footer>
-      <p>Copyright &copy; reserved by SihabSararChistee2024</p>
-      <a href="tel:01706841331">Call me</a>
-      <a href="mailto:sihabsarar10@gmail.com">Email Me</a>
-    </footer>
-  </body>
+  </section>
+  <!-- Section: Projects -->
+  <section id="Projects">
+    <h2>Projects</h2>
+    <ol>
+      <li>
+        <a href="https://github.com/Sihab-10/portfolio-html" target="_blank">My Portfolio Website</a>
+      </li>
+      <li>Blog Website</li>
+      <li>E-commerce Website</li>
+    </ol>
+  </section>
+  <!-- Section: Contacts -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="">
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required>
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+      </div>
+      <div>
+        <label for="message">Message:</label>
+        <textarea name="message" id="message">type your comment here...</textarea>
+        <button type="submit">Submit</button>
+        <button type="reset">Clear</button>
+      </div>
+    </form>
+  </section>
+  <!-- section: footer -->
+  <footer>
+    <p> &spades; Copyright &copy; reserved by SihabSararChistee2024 &spades;</p>
+    <p> Development with &hearts; </p>
+    <a href="tel:01706841331">Call me</a>
+    <a href="mailto:sihabsarar10@gmail.com">Email Me</a>
+  </footer>
+</body>
+
 </html>
