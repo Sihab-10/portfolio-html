@@ -1,5 +1,5 @@
 # HTML Learnings
-
+## Basic HTML
 1. How webiste works?
 
 - client-server model
@@ -38,3 +38,13 @@
 14. Basic Form 
 15. Entity
 15. Deploy
+
+## Intermediate HTML
+
+- Meta tag & SEO
+- Adding font-awesome icons and google font 
+- Advanced table
+- Advanced form 
+- form data send to your email
+- multimedia 
+- html5 elements
